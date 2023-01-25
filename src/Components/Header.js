@@ -3,7 +3,12 @@ import s from './Header.module.css'
 
 const Header = () => {
   return (
-    <div className={s.header}>Header</div>
+    <header className={s.header}>
+    
+    <div><img className={s.logo} src={'../Styles/img/logo.png'} alt='logotype'/></div>
+    
+    </header>
+    
   )
 }
 

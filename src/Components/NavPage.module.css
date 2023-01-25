@@ -1,3 +1,5 @@
 .navPage {
   background-color: bisque;
+  max-height: 100vh;
+  margin: 10px;
 }

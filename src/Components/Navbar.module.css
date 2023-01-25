@@ -1,4 +1,6 @@
-.navbar {}
+.navbar {
+  margin: 5px;
+}
 
 .activeLink {
   color: red;

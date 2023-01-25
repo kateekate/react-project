@@ -8,24 +8,29 @@ import NavPage from "./NavPage";
 const MainPage = () => {
   return (
     <>
-      <section className={s.main}>
+      <section className={s.parent}>
 
-<div>
+<div className={s.child}>
 <Header/>
 </div>
 
-{/* Navbar section */}
-<div className={s.navbar}>
+<div className={s.main}>
+
+  {/* Navbar section */}
+<div className={[s.navbar]}>
 <Navbar/>
 </div>
 
 {/* NavPage section */}
-<div className={s.navPage}>
+<div className={[s.navPage, s.content, s.child]}>
 <NavPage/>
 </div>
 
+</div>
+
+
 <div>
-  <Footer/>
+  <Footer className={s.child}/>
 </div>
 
       </section>
