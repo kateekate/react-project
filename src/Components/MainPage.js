@@ -23,7 +23,7 @@ const MainPage = () => {
 
 {/* NavPage section */}
 <div className={[s.navPage, s.content, s.child]}>
-<NavPage/>
+<NavPage />
 </div>
 
 </div>

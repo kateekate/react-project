@@ -1,4 +1,6 @@
 .footer {
-  margin: 10px;
-  background-color: yellow;
+  margin: 0px 20px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 2px solid rgba(0, 0, 0, 0.02);
 }

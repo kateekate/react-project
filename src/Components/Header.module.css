@@ -1,3 +1,20 @@
+.logo {
+  position: relative;
+  left: 13px;
+  width: 10vw;
+  max-width: 80px;
+}
+
 .header {
-  background-color: cornsilk;
+  display: flex;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
+}
+
+.header p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
