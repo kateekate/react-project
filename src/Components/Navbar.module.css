@@ -1,0 +1,9 @@
+.navbar {}
+
+.activeLink {
+  color: red;
+}
+
+.normalLink {
+  color: black;
+}
