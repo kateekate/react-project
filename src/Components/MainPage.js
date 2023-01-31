@@ -10,28 +10,28 @@ const MainPage = () => {
     <>
       <section className={s.parent}>
 
-<div className={s.child}>
-<Header/>
-</div>
+        <div className={s.child}>
+          <Header/>
+        </div>
 
-<div className={s.main}>
+        <div className={s.main}>
 
-  {/* Navbar section */}
-<div className={[s.navbar]}>
-<Navbar/>
-</div>
+          {/* Navbar section */}
+          <div className={[s.navbar]}>
+            <Navbar/>
+          </div>
 
-{/* NavPage section */}
-<div className={[s.navPage, s.content, s.child]}>
-<NavPage />
-</div>
+          {/* NavPage section */}
+          <div className={[s.navPage, s.content, s.child]}>
+            <NavPage />
+          </div>
 
-</div>
+        </div>
 
 
-<div>
-  <Footer className={s.child}/>
-</div>
+        <div>
+          <Footer className={s.child}/>
+        </div>
 
       </section>
     </>

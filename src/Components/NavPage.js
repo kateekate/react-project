@@ -7,14 +7,14 @@ import s from './NavPage.module.css'
 
 const NavPage = () => {
   return (
-<>
-  <section className={s.navPage}>
-    <Routes>
-<Route path='/' element={<HomePage/>} />
-<Route path='/profile' element={<ProfilePage/>} />
-    </Routes>
-  </section>
-</>
+    <>
+      <section className={s.navPage}>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/profile' element={<ProfilePage/>} />
+        </Routes>
+      </section>
+    </>
   )
 }
 

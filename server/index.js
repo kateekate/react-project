@@ -1,12 +1,12 @@
 const express = require('express')
-
 const app = express()
+const port = 3003
 
 app.get('/', (req, res) => {
-  res.send({message:'Hello'})
+  res.send('hello')
 })
 
 
-app.listen(3333, () => {
-  console.log('Application is listening on port 3333')
+app.listen(port, () => {
+  console.log(`Application is listening on ${port} port`)
 })

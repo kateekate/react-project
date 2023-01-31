@@ -1,3 +1,10 @@
 .profilePage {
-  background-color: thistle;
+  width: 500px;
+  background-color: whitesmoke;
+}
+
+.signUp {
+  padding: 30px;
+  text-align: center;
+  color: rgb(68, 83, 83);
 }

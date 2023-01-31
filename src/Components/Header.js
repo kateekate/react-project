@@ -5,8 +5,8 @@ import Logo from '../Styles/img/logo.png'
 const Header = () => {
   return (
     <div className={s.header}>
-    <img className={s.logo} src={Logo} alt='logotype'/>
-    <p>Honor</p>
+      <img src={Logo} className={s.logo} alt='logotype'/>
+      <p>Honor</p>
     </div>
     
   )
