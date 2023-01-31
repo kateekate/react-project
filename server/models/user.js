@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema({
-  image: String,
   name: String,
   surname: String,
   birthday: Number,
