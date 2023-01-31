@@ -6,9 +6,9 @@
 }
 
 .main {
-  display: flex;
+  display: grid;
   flex-grow: 1;
-  gap: 25%;
+  grid-template-columns: 0.5fr 2.5fr;
 }
 
 .navbar {

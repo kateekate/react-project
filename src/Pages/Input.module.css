@@ -12,3 +12,8 @@
   font-size: 18px;
   background-color: rgba(193, 211, 152, 0.228);
 }
+
+.errorMessage {
+  color: brown;
+  text-transform: initial;
+}
