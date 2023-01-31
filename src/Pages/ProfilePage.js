@@ -4,6 +4,8 @@ import {useForm} from "react-hook-form"
 import {yupResolver} from "@hookform/resolvers/yup"
 import * as yup from 'yup'
 import s from './ProfilePage.module.css'
+import 'antd/dist/reset.css';
+import { Button, ConfigProvider } from "antd";
 
 const schema = yup.object({
   username: yup.string().required("Username is a required field."),
@@ -96,7 +98,15 @@ const ProfilePage = () => {
             errorMessage={errors.confirmPassword?.message}
           />
           
-          <button className={s.signUpButton}>Sign Up</button>
+          <ConfigProvider
+            theme={{
+              token: {
+                colorPrimary: '#38403b',
+              },
+            }}
+          >
+            <Button className={s.signUpButton}>Sign Up</Button>
+          </ConfigProvider>
 
         </form>
       </section>
